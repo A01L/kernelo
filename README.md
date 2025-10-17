@@ -1,8 +1,5 @@
 <h1>The Hybrid Core Framework for Node.js</h1>
-<br><br>
-“The Core shall orchestrate, not dictate.”
-— The Architect of Kernelo
-<br><br>
+<br>
 Kernelo — это гибридное ядро для Node.js, создающее единую экосистему, где каждый контейнер может быть автономным приложением, модулем или даже проектом на другом фреймворке (Express, Fastify, Nest, и др.).
 Он не конкурирует с другими фреймворками — он управляет ими.
 <br><br>
