@@ -64,7 +64,7 @@ Response
 | **Plug & Play Containers**   | Добавление/удаление контейнеров без перезапуска ядра.                           |
 | **Dynamic Dispatching**      | Автоматическая маршрутизация по схеме `Kernel → Router → Dispatcher → Adapter`. |
 
-Будущие обновлении
+**Будущие обновлении** <br>
 CLI для управления контейнерами (kernelo create | delete | migrate | merge | rename | scan)
 Встроенный inspector для маршрутов, мониторинг трафиков
 Dev-мод с горячей перезагрузкой контейнеров
