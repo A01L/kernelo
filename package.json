@@ -1,0 +1,7 @@
+{
+  "name": "kernelo",
+  "version": "1.4.0",
+  "bin": {
+    "kernelo": "./core/cli.js"
+  }
+}

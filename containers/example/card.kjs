@@ -1,0 +1,3 @@
+module.exports = async ({ req, params }) => {
+    return { id: params.id, name: "User #" + params.id };
+};
