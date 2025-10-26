@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0e0f11;
+  font-family: 'Segoe UI', sans-serif;
+  color: #cde9ff;
+  overflow: auto;
+  height: 100vh;
+}
+
+.background {
+  position: absolute;
+  inset: 0;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+  animation: fadeIn 1.2s ease-out;
+}
+
+.version {
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  margin-top: 15px;
+  font-size: 0.9em;
+  color: #7b8fa3;
+}
+
+.quote{
+  color: #a6a6a6;
+}
+
+.section {
+    padding: 100px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .section h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 60px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: auto;
+    gap: 15px;
+  }
+
+  .card {
+    background: #141414;
+    border: 1px solid #1f1f1f;
+    border-radius: 16px;
+    padding: 10px;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(255,255,255,0.02);
+  }
+
+  .card h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 8px;
+    padding: 10px 0px 0px 10px;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+    color: #aaa;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    padding-left: 10px;
+  }
+
+  .card img {
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+  }
+
+  /* Раскладка */
+  .card:nth-child(1) {
+    grid-column: span 3;
+  }
+
+  .card:nth-child(2) {
+    grid-column: span 3;
+  }
+
+  .card:nth-child(3) {
+    grid-column: span 2;
+  }
+
+  .card:nth-child(4) {
+    grid-column: span 2;
+  }
+
+  .card:nth-child(5) {
+    grid-column: span 2;
+  }
+
+  @media (max-width: 1024px) {
+    .cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+      grid-column: span 1 !important;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .cards {
+      grid-template-columns: 1fr;
+    }
+
+    .card {
+      grid-column: span 1 !important;
+    }
+
+    .section {
+      padding: 60px 20px;
+    }
+
+    .section h1 {
+      font-size: 1.8rem;
+    }
+  }
+
+  .title {
+    font-size: 2.7em;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 0px !important;
+    max-width: 700px;
+}
+
