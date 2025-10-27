@@ -1,6 +1,6 @@
 {
   "name": "create-kernelo",
-  "version": "3.1.3",
+  "version": "4.1.3",
   "description": "The Hybrid Core Framework for Node.js",
   "author": "A01L",
   "license": "MIT",
@@ -8,6 +8,6 @@
     "kernelo": "./core/cli.js"
   },
   "dependencies": {
-    "kernelo": "^3.1.3"
+    "kernelo": "^4.1.3"
   }
 }

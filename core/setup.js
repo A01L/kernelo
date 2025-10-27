@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -43,7 +44,7 @@ if (fs.existsSync(tpPackage)) {
 }
 
 console.log("init (npm link) for cli kernelo...");
-execSync('npm link', { cwd: targetDir, stdio: 'inherit' });
+execSync('npm link --force', { cwd: targetDir, stdio: 'inherit' });
 
 console.log("Success! You can use CLI of kernelo:");
 console.log("  kernelo start | kernelo help");

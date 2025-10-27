@@ -2,7 +2,7 @@
 	-Kernelo NodeJS-
 	Authors: A01L & thebralin
 	GitHub: https://GitHub.com/A01L | https://github.com/thebralin
-	Version:  3.1.3v
+	Version:  4.1.3v
  */
 
 // core/kernel.js
