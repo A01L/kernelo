@@ -4,9 +4,8 @@
   "description": "The Hybrid Core Framework for Node.js",
   "author": "A01L",
   "license": "MIT",
-  "type": "module",
   "bin": {
-    "create-kernelo": "./core/setup.js"
+    "kernelo": "./core/cli.js"
   },
   "dependencies": {
     "kernelo": "^3.1.3"
